@@ -243,5 +243,22 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+
 }
 
+.logo{
+  height: 40px;
+}
+
+li{
+  display: inline;
+  margin: 30px;
+}
+
+body{
+  text-align: center;
+}
+
+.project{
+  background: #888888;
+}
