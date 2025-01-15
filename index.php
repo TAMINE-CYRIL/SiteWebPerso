@@ -12,31 +12,21 @@
 
 <body>
 
-
-
-<section class="navbar" id="navbar">
-  <ul>
-    <a href="index.html#navbar" class="left"><li>Cyril Tamine</li></a>
-    <a href="index.html#about"><li>About</li></a>
-    <a href="index.html#project"><li>Projects</li></a>
-    <a href="index.html#contact"><li>Contact</li></a>
-  </ul>
-
-</section>
+<?php include "navbar.php"; ?>
 
 <section class="part" id="about">
-<h2>Who am I ?</h2>
-<p>My name is Cyril, I am studying Computer Science in Aix-en-Provence, France.
-  Feel free to explore this website and reach out if you need my help !
+  <h2>Who am I ?</h2>
+  <p>My name is Cyril, I am studying Computer Science in Aix-en-Provence, France.
+    Feel free to explore this website and reach out if you need my help !
 
-</p>
-<button>About Me</button>
+  </p>
+  <button>About Me</button>
 </section>
 
 
 <section class="part" id="project">
   <h2>My Projects</h2>
-  <h3>I did a lot of different projects during my years at university, here's some of them !</h3>
+  <h3>I did a lot of different projects during my years at university, here\'s some of them !</h3>
   <p> Note : I got hacked on Github during the beginning of my second year. There are many projects where I am blacklisted.</p>
   <section class="project">
     <h4>Tile-matching game (C++)</h4>
@@ -79,7 +69,7 @@
     <a href="index.html#contact"><li>Contact</li></a>
   </ul>
 
-  <a href="https://www.linkedin.com/in/cyril-tamine-9068642b4/"><img class="logo" src="img/linkedin.webp" alt="Linkedin's Logo"></a>
+  <a href="https://www.linkedin.com/in/cyril-tamine-9068642b4/"><img class="logo" src="img/linkedin.webp" alt="Linkedin\'s Logo"></a>
   <p>Developed and designed by me.</p>
 
 
