@@ -61,7 +61,7 @@ $projects = [
     <a href="<?php echo $projects["github"]; ?>"><button>Github</button> </a>
   </section>
   <?php endforeach; ?>
-</section>  
+</section>
 
 
 
@@ -73,6 +73,8 @@ $projects = [
   <button>taminecyril@gmail.com</button>
 
 </section>
+
+<?php include "footer.php"; ?>
 
 
 </body>
