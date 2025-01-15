@@ -23,35 +23,46 @@
   <button>About Me</button>
 </section>
 
+<?php
+$projects = [
+  [
+  "title"=> "Tile-matching game (C++)",
+  "description"=>"A tile-matching game made with C++ and the library MinGL2.0, created by students in the IUT.",
+  "github"=>"https://github.com/RIGAT-Pierre-andre-2326090par/SAECandyCrush"
+],
+[
+  "title"=> "Connected TVs",
+  "description" => "A PHP Project created in order to manage the televisions of the different department in the IUT.",
+  "github"
+],
+[
+  "title" => "Website for the IUT French Cup 2024",
+  "description" => "A website created in order to promote the IUT French Cup 2024.",
+  "github" => "https://github.com/RIGAT-Pierre-andre-2326090par/SAEBesoin"
+],
+[
+  "title" => "Tenders Website",
+  "description" => "A PHP website created for every fan of tenders and raclette.",
+  "github" => "https://github.com/RIGAT-Pierre-andre-2326090par/Projet-Php_R3.01"
+]
 
+];
+
+?>
 <section class="part" id="project">
   <h2>My Projects</h2>
-  <h3>I did a lot of different projects during my years at university, here\'s some of them !</h3>
+  <h3>I did a lot of different projects during my years at university, heres some of them !</h3>
   <p> Note : I got hacked on Github during the beginning of my second year. There are many projects where I am blacklisted.</p>
-  <section class="project">
-    <h4>Tile-matching game (C++)</h4>
-    <p> A tile-matching game made with C++ and the library MinGL2.0, created by students in the IUT.</p>
-    <a href="https://github.com/RIGAT-Pierre-andre-2326090par/SAECandyCrush"><button>Github</button></a>
-  </section>
 
-  <section class="project">
-    <h4>Connected TVs</h4>
-    <p> A PHP Project created in order to manage the televisions of the different department in the IUT.</p>
-    <a href="https://github.com/ODERZO-Flavio-2326083b/SAE_TV_CONNECTEES"><button>Github</button></a>
+  <?php foreach ($projects as $project): ?>
+    <section class="project">
+    <h4><?php echo $projects["title"]; ?> </h4>
+    <p><?php echo $projects["description"]; ?> </p>
+    <a href="<?php echo $projects["github"]; ?>"><button>Github</button> </a>
   </section>
+  <?php endforeach; ?>
+</section>  
 
-  <section class="project">
-    <h4>Website for the IUT French Cup 2024</h4>
-    <p> A website created in order to promote the IUT French Cup 2024.</p>
-    <a href="https://github.com/RIGAT-Pierre-andre-2326090par/SAEBesoin"><button>Github</button></a>
-  </section>
-
-  <section class="project">
-    <h4>Tenders Website</h4>
-    <p>A PHP website created for every fan of tenders and raclette.</p>
-    <a href="https://github.com/RIGAT-Pierre-andre-2326090par/Projet-Php_R3.01"><button>Github</button></a>
-  </section>
-</section>
 
 
 <section class="part" id="contact">
@@ -62,18 +73,7 @@
   <button>taminecyril@gmail.com</button>
 
 </section>
-<footer>
-  <ul>
-    <a href="index.html#about"><li>About</li></a>
-    <a href="index.html#project"><li>Projects</li></a>
-    <a href="index.html#contact"><li>Contact</li></a>
-  </ul>
 
-  <a href="https://www.linkedin.com/in/cyril-tamine-9068642b4/"><img class="logo" src="img/linkedin.webp" alt="Linkedin\'s Logo"></a>
-  <p>Developed and designed by me.</p>
-
-
-</footer>
 
 </body>
 
