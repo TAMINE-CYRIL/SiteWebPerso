@@ -2,12 +2,11 @@
   height: 40px;
 }
 
-
-
 body{
   text-align: center;
-  background: #222222;
+  background: url("../img/background.jpg");
 }
+
 p, h1, h2, h3, h4, a, li{
   color: #DDDDDD;
 }
@@ -35,6 +34,15 @@ p, h1, h2, h3, h4, a, li{
   margin: 0 10px;
 }
 
+footer ul a {
+  text-decoration: none;
+  margin: 0 10px;
+  list-style: none;
+
+}
+
+
+
 .navbar ul .left {
   margin-right: auto;
 }
@@ -48,7 +56,9 @@ p, h1, h2, h3, h4, a, li{
 
 .project{
   border: 2px solid #DDDDDD;
-  margin: 10px;
+  margin: 50px 200px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 
@@ -95,3 +105,7 @@ button:disabled {
     opacity: 1;
   }
 
+button:hover{
+  background-color: darkslategray;
+  color: white;
+}
