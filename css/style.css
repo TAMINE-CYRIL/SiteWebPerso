@@ -5,10 +5,30 @@
 body{
   text-align: center;
   background: url("../img/background.jpg");
+  background-size: cover;
+
 }
 
 p, h1, h2, h3, h4, a, li{
   color: #DDDDDD;
+}
+
+p{
+  font-size: 1vw;
+}
+
+span{
+  color: #DDDDDD;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.big{
+  font-size: 17vw;
+}
+.little{
+  font-size: 3vw;
 }
 
 
@@ -91,6 +111,7 @@ button:focus-visible {
     box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
     transition: box-shadow .2s;
   }
+
 
 button:active {
     background-color: #F7F7F7;
