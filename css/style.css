@@ -8,13 +8,38 @@ body{
   background-size: cover;
 
 }
+hr{
+  margin-right: 40px;
+  margin-left: 40px;
+}
 
-p, h1, h2, h3, h4, a, li{
+.part{
+  margin:8%
+}
+
+p, h1, h2, h3, h4{
   color: #DDDDDD;
 }
 
 p{
-  font-size: 1vw;
+  font-size: calc(15px + 0.390625vw);
+}
+
+
+
+.description{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  text-align: justify;
+
+}
+
+.nom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 9%  ;
 }
 
 span{
@@ -26,9 +51,25 @@ span{
 
 .big{
   font-size: 17vw;
+  font-weight: bold;
 }
 .little{
   font-size: 3vw;
+  text-align: right;
+}
+
+
+a li{
+  color: #b8b7b7;
+  transition: all 0.3s ease;
+
+}
+
+
+li:hover{
+  color: white;
+  font-size: 18px;
+  text-decoration: underline;
 }
 
 
@@ -38,7 +79,12 @@ span{
   align-items: center;
   padding: 10px;
 
+
 }
+
+
+
+
 
 .navbar ul {
   display: flex;
@@ -71,7 +117,9 @@ footer ul a {
   display: inline-block;
 }
 
-
+.li:hover{
+  font-size: 12px;
+}
 
 
 .project{
