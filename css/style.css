@@ -9,8 +9,18 @@ body{
 
 }
 hr{
-  margin-right: 40px;
-  margin-left: 40px;
+  top: 0.8em;
+  -webkit-animation: thread 8s infinite;
+  -moz-animation:    thread 8s infinite;
+  -o-animation:      thread 8s infinite;
+  animation:         thread 8s infinite;
+}
+
+@keyframes thread {
+  0%   { width: 100%; }
+  50%  { width: 100%; }
+  80%  { width: 0; }
+  100% { width: 100%; }
 }
 
 .part{
@@ -21,8 +31,17 @@ p, h1, h2, h3, h4{
   color: #DDDDDD;
 }
 
+h2{
+text-decoration: underline
+}
+
+h3{
+  font-size: 2vw;
+}
+
 p{
   font-size: calc(15px + 0.390625vw);
+  text-align: justify ;
 }
 
 
@@ -124,9 +143,8 @@ footer ul a {
 
 .project{
   border: 2px solid #DDDDDD;
-  margin: 50px 200px;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 3vw;
+  margin-bottom: 7vw;
 }
 
 
@@ -138,43 +156,15 @@ button {
   color: #222222;
   cursor: pointer;
   display: inline-block;
-  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
   font-size: 16px;
   font-weight: 600;
-  line-height: 20px;
-  margin: 0;
   outline: none;
   padding: 13px 23px;
-  position: relative;
   text-align: center;
-  text-decoration: none;
-  touch-action: manipulation;
-  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
-  user-select: none;
-  -webkit-user-select: none;
-  width: auto;
+  transition: all 0.3s ease;
 }
 
-button:focus-visible {
-    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
-    transition: box-shadow .2s;
-  }
-
-
-button:active {
-    background-color: #F7F7F7;
-    border-color: #000000;
-    transform: scale(.96);
-  }
-
-button:disabled {
-    border-color: #DDDDDD;
-    color: #DDDDDD;
-    cursor: not-allowed;
-    opacity: 1;
-  }
 
 button:hover{
-  background-color: darkslategray;
-  color: white;
+  font-size: 20px;
 }
