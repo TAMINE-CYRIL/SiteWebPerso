@@ -80,11 +80,13 @@ span {
   font-weight: bold;
   }
 
-
-
-
 .little{
-  font-size: 3vw;
+  font-size: 5vw;
+  
+}
+
+.dev{
+  font-size: 4vw;
 }
 
 
