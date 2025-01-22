@@ -20,17 +20,14 @@ body{
 }
 hr{
   top: 0.8em;
-  -webkit-animation: thread 8s infinite;
-  -moz-animation:    thread 8s infinite;
-  -o-animation:      thread 8s infinite;
   animation:         thread 8s infinite;
 }
 
 @keyframes thread {
-  0%   { width: 100%; }
-  50%  { width: 100%; }
+  0%   { width: 90%; }
+  50%  { width: 90%; }
   80%  { width: 0; }
-  100% { width: 100%; }
+  100% { width: 90%; }
 }
 
 .part{
