@@ -1,20 +1,17 @@
-.logo{
-  height: 40px;
+html{
+  scroll-behavior: smooth;
 }
-
-.logo:hover{
-  height: 47px;
-  transition: 0.7s ease all;
-}
-
-
 
 body{
   text-align: center;
   background: #fcfefe;
   color: #000;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 
 }
+
 hr{
   top: 0.8em;
   margin-top: 5vw;
@@ -46,9 +43,14 @@ h3{
 
 p{
   font-size: calc(15px + 0.390625vw);
-  text-align: justify ;
+  text-align: justify;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
+a{
+color: black;
+}
 
 
 .description{
@@ -132,6 +134,7 @@ li:hover{
 
 footer{
   background-color: #f76b8a;
+  height: 100%;
 }
 
 
@@ -141,7 +144,6 @@ footer ul a {
   list-style: none;
 
 }
-
 
 
 .navbar ul .left {
@@ -230,6 +232,12 @@ button:hover{
 }
 
 .info {
-  display: flex;
-flex-flow: column;
+display: flex;
+flex-direction : row;
+justify-content: space-around;
+
+}
+
+.signature{
+  text-align: center;
 }
