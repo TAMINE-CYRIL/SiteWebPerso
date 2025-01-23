@@ -1,0 +1,19 @@
+.project{
+  border: 2px solid #DDDDDD;
+  padding: 3vw;
+  margin-bottom: 7vw;
+}
+
+.display{
+  cursor: pointer;
+  color: #000000;
+}
+
+.display:hover{
+  background-color: #5caaaa;
+}
+
+.display:active{
+  transition: all 0.6s ease;
+  background-color: #322f2f;
+}
