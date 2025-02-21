@@ -1,0 +1,139 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  text-align: center;
+  background: #fcfefe;
+  color: #000;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+
+}
+
+hr{
+  top: 0.8em;
+  margin-top: 5vw;
+  animation:         thread 8s infinite;
+}
+
+
+p, h1, h2, h3, h4{
+  color: #000000;
+}
+
+
+h2{
+  text-decoration: underline
+}
+
+h3{
+  font-size: 2vw;
+}
+
+span {
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+footer{
+  background-color: #17577f;
+  height: 100%;
+}
+
+
+footer ul a {
+  text-decoration: none;
+  margin: 0 10px;
+  list-style: none;
+
+}
+
+
+.content{
+  padding:70px;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  top: 0;
+  width: 100%;
+}
+
+
+.navbar a li{
+  color: #000000;
+  transition: all 0.3s ease;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.navbar a li:hover{
+  color: #dddddd;
+
+}
+
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navbar ul a {
+  text-decoration: none;
+
+  margin: 0 10px;
+}
+
+
+
+.navbar ul .left {
+  margin-right: auto;
+}
+
+
+p{
+  font-size: calc(15px + 0.390625vw);
+  text-align: justify;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+a{
+  color: black;
+}
+
+button {
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  padding: 13px 23px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+
+button:hover{
+  font-size: 20px;
+}
+

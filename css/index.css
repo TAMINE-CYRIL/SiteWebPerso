@@ -1,0 +1,29 @@
+
+
+.banner{
+  background: url("../img/man.jpg");
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-size: cover;
+  align-items: center;
+  width: 100%;
+}
+
+.nom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  position: absolute;
+  top: 50%;
+}
+
+.student{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  position: absolute;
+  top: 60%;
+}
