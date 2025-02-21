@@ -19,6 +19,8 @@
   top: 50%;
 }
 
+
+
 .student{
   display: flex;
   justify-content: center;
@@ -26,4 +28,15 @@
   font-size: 2vw;
   position: absolute;
   top: 60%;
+}
+
+@media screen and (max-width: 730px) {
+  .nom{
+    font-size: 9vw;
+  }
+
+  .student{
+    font-size: 7vw;
+    top: 55%;
+  }
 }
