@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cyril's Portfolio</title>
-  <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/index.css">
 
   <meta name="description" content="A website made by Cyril T., studying Computer Sciences in AMU.">
@@ -18,20 +17,147 @@
 <section class="navbar" id="navbar">
   <ul>
     <a href="index.html" class="left"><li>TC</li></a>
-    <a href="about.html"><li>About</li></a>
+    <a href="#about"><li>About</li></a>
     <a href="index.html"><li>Home</li></a>
-    <a href="project.html"><li>Projects</li></a>
+    <a href="#projet"><li>Projects</li></a>
     <a href="contact.html"><li>Contact</li></a>
   </ul>
 
 </section>
 
 
-<section class="banner">
+<section class="banner" id="banner">
   <span class="nom" onmouseover="welcome()">Cyril T.</span>
   <span class="student">Computer Sciences Student</span>
 </section>
 
+<section class="about" id="about">
+  <h1>About Me </h1>
+  <p>
+    Since I was a child, I have always been drawn to digital professions. At first, I wanted to specialize myself in video
+    games, however, during my University Bachelor of Technology, I discovered many interesting fields in Programming :
+    Frontend, Backend, Java, Python, C++, Databases, AI. There are so many fields I want to try, so many languages
+    I want to learn. I really aspire to be a complete developer !
+
+  </p>
+
+  <hr>
+
+  <h1>Education</h1>
+  <p>
+    2021 - 2023
+    Lycée Artaud, France
+    Baccaulaureate in Computer Sciences
+    with highest honour
+  </p>
+
+  <p>
+    2023 - 2026
+    IUT Aix-Marseille, Aix-en-Provence
+    BUT Computing
+  </p>
+  <hr>
+
+  <h1>Hobbies</h1>
+  <h2>Reading</h2>
+  <p> I have so many hobbies I don't even have enough time to do everything ! I enjoy reading any kind of books, it
+    could either be a novel, a manga, a comic and even plays !
+  </p>
+
+  <h2>Programming</h2>
+  <p>Of course, programming is one of the favorite thing I like to do on my computer; I like to create as
+    much as I can : websites, games... as long as I have fun and I try something new. For this website, this is the
+    first time I try to create a website for myself. Also, I really want to improve my CSS skills, and I'm trying to make
+    this website good-looking.</p>
+
+  <h4>I learnt how to use : </h4>
+  <section class="roller">
+<span id="rolltext">
+  HTML <br>
+  CSS <br>
+  PHP <br>
+  JavaScript <br>
+  Java <br>
+  SQL <br>
+  C++ <br>
+  Python <br>
+
+</span>
+  </section>
+
+
+  <h2>Drawing</h2>
+
+  <h2>Playing Games</h2>
+  <p>Video games is the main reason I wanted to study Computer Science. Even though I entered college, I still find time
+    to play, either on my computer or my phone</p>
+
+<hr>
+</section>
+
+<section class="projet" id="projet">
+
+  <h2>My Projects</h2>
+  <p>I worked on many projects during my years at college, here's some of them !</p>
+
+  <section class="project">
+    <h2>Tile-matching game (C++)</h2>
+    <p> A tile-matching game made with C++ and the library MinGL2.0, created by students in the IUT.</p>
+    <p><strong>Technologies :</strong> C++, YAML</p>
+    <a href="https://github.com/RIGAT-Pierre-andre-2326090par/SAECandyCrush"><button>GitHub Repository</button></a>
+  </section>
+
+  <section class="project">
+    <h2>Connected TVs</h2>
+    <p> A PHP Project created in order to manage the televisions of the different departments in the IUT.</p>
+    <p><strong>Technologies :</strong> PHP, JavaScript, MySQL, HTML, CSS</p>
+    <a href="https://github.com/ODERZO-Flavio-2326083b/SAE_TV_CONNECTEES"><button>GitHub Repository</button></a>
+  </section>
+
+  <section class="project">
+    <h2>Website for the IUT French Cup 2024</h2>
+    <p> A website created in order to promote the IUT French Cup 2024.</p>
+    <p><strong>Technologies :</strong> HTML, CSS</p>
+    <a href="https://github.com/RIGAT-Pierre-andre-2326090par/SAEBesoin"><button>GitHub Repository</button></a>
+  </section>
+
+  <section class="project">
+    <h2>Tenders Website</h2>
+    <p>A PHP website created for every fan of tenders and raclette.</p>
+    <p><strong>Technologies :</strong> PHP, MySQL, CSS, HTML</p>
+    <a href="https://github.com/RIGAT-Pierre-andre-2326090par/Projet-Php_R3.01"><button>GitHub Repository</button></a>
+  </section>
+
+  <section class="project">
+    <h2>ETU Website</h2>
+    <p>A website created to group every IDE, websites et lectures useful to our BUT Computing.</p>
+    <p><strong>Technologies :</strong> HTML, CSS</p>
+    <a href="https://github.com/TORCHIN-Maxence-24020376/Site-ETU"><button>GitHub Repository</button></a>
+  </section>
+
+  <button class="display" onclick="plusDivs(-1)">&#10094;  Previous</button>
+  <button class="display" onclick="plusDivs(1)">Next &#10095;</button>
+
+  <script src="js/slideshow.js"></script>
+</section>
+
+<footer>
+  <section class="en-bas">
+    <section class="contact">
+      <h2>Contact</h2>
+      <a href="mailto:taminecyril@gmail.com"><li>taminecyril@gmail.com</li></a>
+    </section>
+    <section class="social">
+      <h2>Socials</h2>
+      <a href="https://www.linkedin.com/in/cyril-tamine-9068642b4/"><li>LinkedIn </li></a>
+      <a href="https://github.com/Xanooo"><li>GitHub</li></a>
+    </section>
+  </section>
+
+  <p class="signature">© 2025 - Tous droits réservés.</p>
+
+</footer>
+<script src="js/slideshow.js"></script>
 
 <script src="js/intro.js"></script>
 </body>
