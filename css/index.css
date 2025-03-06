@@ -304,10 +304,6 @@ form {
   margin: auto;
 }
 
-label {
-  display: block;
-  margin: 10px 0 5px;
-}
 
 input, textarea {
   width: 100%;
